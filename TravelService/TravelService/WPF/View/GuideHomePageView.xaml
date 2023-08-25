@@ -1,0 +1,112 @@
+<Window x:Class="TravelService.WPF.View.GuideHomePageView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ns="clr-namespace:TravelService.Localization"
+        Title="Guide HomePage" Width="800" Height="600"
+      
+        DataContext="{Binding RelativeSource={RelativeSource Self}}">
+    <Window.Resources>
+        <Style TargetType="Frame" x:Key="NoNavigationFrameStyle">
+            <Setter Property="NavigationUIVisibility" Value="Hidden" />
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"></ColumnDefinition>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="25*"></ColumnDefinition>
+            <ColumnDefinition Width="85*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0"  x:Name="sidePanel" Margin="30,20,0,-5" Grid.ColumnSpan="2">
+
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="83*"/>
+                <RowDefinition Height="416*"/>
+                <RowDefinition Height="85*"/>
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,10,0,0">
+                <StackPanel Orientation="Horizontal"/>
+                <TextBlock TextWrapping="Wrap" Text="Travel Service" FontFamily="Harlow Solid Italic" FontSize="32" FontWeight="Bold" TextAlignment="Center" Height="50" Width="220"/>
+            </StackPanel>
+            <!--Rectangle Grid.Column="0" VerticalAlignment="Bottom" Fill="Black" Height="3" ></Rectangle-->
+            <StackPanel VerticalAlignment="Top" Height="465" Margin="0,69,0,100" Grid.RowSpan="3"  >
+                <Button  BorderBrush="Transparent" Height="45" Width="220"  HorizontalAlignment="Left"  Command="{Binding Home}" Background="White">
+                    <StackPanel Height="38" Width="173" Orientation="Horizontal">
+                        <Image Source="/Resources/Icons/icons8-home-48.png" Height="22" Width="33" HorizontalAlignment="Left"/>
+                        <TextBlock Text="{ns:Loc Home}" FontWeight="Bold"  FontSize="17" Background="White" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+                <Button BorderBrush="Transparent" Height="45" Width="220"  HorizontalAlignment="Left"   Background="White" Command="{Binding BestTourCommand}">
+                    <StackPanel Height="30"  Orientation="Horizontal" Width="173">
+                        <Image Source="/Resources/Icons/icons8-best-seller-48.png" Height="25" Width="33" HorizontalAlignment="Left" />
+                        <TextBlock Text="{ns:Loc Best Tours}" FontWeight="Bold"  FontSize="17" Background="White" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+                <Button BorderBrush="Transparent" Height="45" Width="220"  HorizontalAlignment="Left"  Background="White" Command="{Binding Complex}">
+                    <StackPanel Height="35" Width="173" Orientation="Horizontal" Background="White">
+                        <Image Source="/Resources/Icons/icons8-statistics-64.png" Height="25" Width="33" HorizontalAlignment="Left" />
+                        <TextBlock Text="{ns:Loc Complex Tours}" FontWeight="Bold" FontSize="17" Background="White" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+                <Button BorderBrush="Transparent" Height="45" Width="220"  HorizontalAlignment="Left"  Background="White" Command="{Binding PastToursCommand}">
+                    <StackPanel Height="35" Width="173" Orientation="Horizontal" Background="White">
+                        <Image Source="/Resources/Icons/icons8-past-64.png" Height="25" Width="33" HorizontalAlignment="Left" />
+                        <TextBlock Text="{ns:Loc Past Tours}" FontWeight="Bold" FontSize="17" Background="White" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+
+                <Button BorderBrush="Transparent" Height="50" Width="220"  HorizontalAlignment="Left"  Background="White"  Command="{Binding Suggestion}">
+                    <StackPanel Height="35" Width="173" Orientation="Horizontal" Background="White">
+                        <Image Source="/Resources/Icons/icons8-suggestion-64.png" Height="25" Width="33" HorizontalAlignment="Left" />
+                        <TextBlock Text="{ns:Loc Suggestions}" FontWeight="Bold" FontSize="17" Background="White" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+
+                <Button BorderBrush="Transparent" Height="50" Width="220" Command="{Binding AddTourCommand}" HorizontalAlignment="Left"  Background="White"  >
+                    <StackPanel Height="35" Width="173" Orientation="Horizontal" Background="White">
+                        <Image Source="/Resources/Icons/icons8-plus-48.png" Height="25" Width="33" HorizontalAlignment="Left" />
+                        <TextBlock Text="{ns:Loc Create Tour}" FontWeight="Bold" FontSize="17" Background="White" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+                <Button BorderBrush="Transparent" Height="45" Width="220"  HorizontalAlignment="Left"  Background="White"  Command="{Binding CancelTourCommand}">
+                    <StackPanel Height="35" Width="173" Orientation="Horizontal" Background="White">
+                        <Image Source="/Resources/Icons/icons8-cancel-48.png" Width="33" Height="30"/>
+                        <TextBlock Text="{ns:Loc Cancel Tour}" FontWeight="Bold" FontSize="17" Background="White" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+                <Button BorderBrush="Transparent" Height="45" Width="220"  HorizontalAlignment="Left"  Background="White" Command ="{Binding RequestsCommand}">
+                    <StackPanel Height="35" Width="173" Orientation="Horizontal" Background="White">
+                        <Image Source="/Resources/Icons/icons8-request-16.png" Width="33" Height="30"/>
+                        <TextBlock Text="{ns:Loc Requests}" FontWeight="Bold" FontSize="17" Background="White" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+                <Button BorderBrush="Transparent" Height="45" Width="220"  HorizontalAlignment="Left"  Background="White"  Command="{Binding Profile}">
+                    <StackPanel Height="35" Width="173" Orientation="Horizontal" Background="White">
+                        <Image Source="Icons/woman (2).png" Width="33" Height="30"/>
+                        <TextBlock Text="{ns:Loc Profile}" FontWeight="Bold" FontSize="17" Background="White" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+
+
+            </StackPanel>
+
+
+
+        </Grid>
+        <Grid Grid.Column="3" Margin="0,0,6,0" Grid.ColumnSpan="2" >
+            <Frame Style="{StaticResource NoNavigationFrameStyle}" x:Name="Main" Height="Auto"/>
+        </Grid>
+        <Frame x:Name="MyPopupFrame"  HorizontalAlignment="Left" VerticalAlignment="Top"  Visibility="Collapsed" Margin="135,377,0,0" />
+
+
+
+    </Grid>
+
+</Window>

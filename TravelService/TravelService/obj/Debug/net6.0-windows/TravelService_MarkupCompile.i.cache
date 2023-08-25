@@ -1,0 +1,20 @@
+﻿TravelService
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\marai\OneDrive\Desktop\3godina\sims\SIMS PROJEKAT\SIMS-Project-team-C\TravelService\TravelService\obj\Debug\net6.0-windows\
+TravelService
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+C:\Users\marai\OneDrive\Desktop\3godina\sims\SIMS PROJEKAT\SIMS-Project-team-C\TravelService\TravelService\App.xaml
+90-1274215923
+
+309-1895347015
+201-598542397
+MainWindow.xaml;WPF\View\AcceptingComplexReq.xaml;WPF\View\AcceptingTourRequestView.xaml;WPF\View\AccommodationAvailabilityView.xaml;WPF\View\AccommodationMonthStatisticsView.xaml;WPF\View\AccommodationReview.xaml;WPF\View\AccommodationStatisticsView.xaml;WPF\View\AccommodationView.xaml;WPF\View\AccommodationYearStatisticsView.xaml;WPF\View\ActiveToursView.xaml;WPF\View\AddAccommodation.xaml;WPF\View\AddCommentView.xaml;WPF\View\AddComplexTourRequestView.xaml;WPF\View\AddForumView.xaml;WPF\View\AddingForumComment.xaml;WPF\View\AddReviewView.xaml;WPF\View\AddTourRequestView.xaml;WPF\View\AddTourView.xaml;WPF\View\ApproveReservationRequestView.xaml;WPF\View\CancelRenovationView.xaml;WPF\View\CancelReservationConfirmView.xaml;WPF\View\CheckPointView.xaml;WPF\View\ChoooseRequestListView.xaml;WPF\View\ChooseRequestTypeView.xaml;WPF\View\ClosingAccommodationView.xaml;WPF\View\ClosingForumView.xaml;WPF\View\ComplexRequests.xaml;WPF\View\Dates.xaml;WPF\View\DeclineReservationRequestView.xaml;WPF\View\EnterCheckPointView.xaml;WPF\View\FindAvailableAccommodationsView.xaml;WPF\View\FirstGuestProfileView.xaml;WPF\View\FirstGuestView.xaml;WPF\View\FirstGuestWindow.xaml;WPF\View\ForumCommentsView.xaml;WPF\View\ForumSelectionView.xaml;WPF\View\ForumsView.xaml;WPF\View\GuestPresence.xaml;WPF\View\GuestRatingOverview.xaml;WPF\View\GuestRatingView.xaml;WPF\View\GuestsComplexRequestsView.xaml;WPF\View\GuestsRequestsStatisticsView.xaml;WPF\View\GuestsRequestsView.xaml;WPF\View\GuestsToursView.xaml;WPF\View\GuestsVouchersView.xaml;WPF\View\GuideHomePageView.xaml;WPF\View\JoinTourView.xaml;WPF\View\LanguageStatisticsGraph.xaml;WPF\View\LocationStatisticsGraph.xaml;WPF\View\MarkAttendence.xaml;WPF\View\MostVisited.xaml;WPF\View\MovingReservationRequestsView.xaml;WPF\View\MyTours.xaml;WPF\View\OwnerProfileView.xaml;WPF\View\OwnerRatingView.xaml;WPF\View\OwnerView.xaml;WPF\View\OwnerWindow.xaml;WPF\View\PastTours.xaml;WPF\View\ProfileView.xaml;WPF\View\RatingView.xaml;WPF\View\RecommendedAccommodationView.xaml;WPF\View\RenovationRecommendationView.xaml;WPF\View\RenovationSchedulingView.xaml;WPF\View\RenovationSelectionView.xaml;WPF\View\ReportView.xaml;WPF\View\RequestsStatsView.xaml;WPF\View\ReservationsView.xaml;WPF\View\ReserveAccommodationView.xaml;WPF\View\ReserveAnywhereView.xaml;WPF\View\ReviewsSelectionView.xaml;WPF\View\ScheduleDateView.xaml;WPF\View\ScheduledRenovationsCancellationView.xaml;WPF\View\SearchAccommodationView.xaml;WPF\View\SecondGuestNotificationsView.xaml;WPF\View\SecondGuestView.xaml;WPF\View\SelectedAccommodationView.xaml;WPF\View\SelectedForumView.xaml;WPF\View\SendReservationRequestView.xaml;WPF\View\ShowGuestsNotificationView.xaml;WPF\View\ShowGuestsView.xaml;WPF\View\ShowRequestListView.xaml;WPF\View\ShowTourReviewView.xaml;WPF\View\SignInForm.xaml;WPF\View\SuggestionForGuideView.xaml;WPF\View\TourReservationView.xaml;WPF\View\TourStats.xaml;WPF\View\TourTrackingView.xaml;WPF\View\TourView.xaml;WPF\View\UpdateOwnerProfileView.xaml;WPF\View\VoucherView.xaml;
+
+False
+

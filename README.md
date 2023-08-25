@@ -1,0 +1,5 @@
+Projekat iz Specifikacije i modeliranja softvera, Radjen u 6.semsetru 2023 godine Clanovi tima i njihove uloge: Marija Ilic- vodic, Jovana Ristic- gost2, Biljana Mijic- vlasnik, Ivana Ilijin- gost1
+
+Cilj projekta je bio da se napravi aplikacija slicna Bookingu, nasa aplikacija se zvala Travel Service, svako je mogao da se uloguje i odjavi sa svojom sifrom i korisnickim imenom. Vodic i gost2,Vlasnik i gost1, su bili povezani i zavisili jedni od drugih. Jer Vodic ima funkcionalnost da napravi turu a gost 2 ucestvuje na njoj, takodje gost1 moze da odseda u hotelu a vlasnik registruje smestaj. Funkcionalnosti koje smo imali smo radili u toku semetra i imali ukupno 4 kontrolne tacke.
+
+Ovde cu objasniti funkcionalnosti koje sam ja implementirala: Kreiranje ture, Otkazivanje ture, Pracenje ture uzivo, Statistika o turama,Otkaz, Prikaz recenzija, Super-vodic, Prihvatanje zahteva za turu, Prihvatanje dela ture u zahtevu za složenu turu,Statistika o zahtevima za ture,Kreiranje ture spram statistike o zahtevima za ture.
